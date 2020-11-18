@@ -1,0 +1,39 @@
+#servicePlan {
+    background-color: #fafffd;
+}
+#servicePlan hr {
+    background-color: #1cd9b8;
+    height: 1px;
+    width: 200px;
+    margin: 0 auto;
+}
+#servicePlan h6 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+#servicePlan button.btn {
+    background: linear-gradient(to right, #1cd9b8, #06aced);
+    width: 200px;
+    height: 50px;
+    margin: 30px auto;
+    margin-bottom: 0;
+    color: white;
+    border-radius: 23px 0 23px 0;
+    visibility: hidden;
+}
+#servicePlan .card {
+    border: 3px solid transparent;
+}
+#servicePlan .card:hover {
+    border: 3px solid #1cd9b8;
+}
+#servicePlan .card:hover hr{
+    visibility: hidden;
+}
+#servicePlan .card:hover button.btn {
+    visibility: visible;
+}
+#servicePlan button.btn:hover {
+    transform: scale(1.08);
+    transition: .2s ease;
+}
