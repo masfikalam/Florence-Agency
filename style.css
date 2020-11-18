@@ -4,7 +4,6 @@
     background-size: 1100px;
     background-repeat: no-repeat;
     background-position: -480px -150px;
-    /* background-color: #fafffd; */
 }
 #pricing hr {
     background-color: #1cd9b8;
@@ -58,4 +57,22 @@
 #subscribe input {
     font-size: 16px;
     min-width: 50px;
+}
+
+/* footer section */
+footer {
+    background-color: #fafffd;
+}
+footer .brandList {
+    max-width: 200px;
+}
+footer img.brand {
+    filter: grayscale(100%);
+}
+footer img, footer li {
+    cursor: pointer;
+    color: gray
+}
+footer li:hover {
+    color: #06aced;
 }
