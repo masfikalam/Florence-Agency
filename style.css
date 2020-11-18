@@ -1,6 +1,8 @@
 html {
     scroll-behavior: smooth;
 }
+
+/* navbar section */
 .navbar a img{
     height: 6rem;
     width: 7.8rem;
@@ -21,48 +23,88 @@ html {
 .curv:hover {
     color: white;
 }
+
+/* header section */
 header{
  margin-top: 2.5rem;
 }
 
-/* service plans */
-
-#servicePlan {
+/* pricing section */
+#pricing {
     background-color: #fafffd;
+    background-image: url('./images/pricingBg.png');
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    background-position: -480px -150px;
 }
-#servicePlan hr {
+#pricing hr {
     background-color: #1cd9b8;
     height: 1px;
     width: 200px;
     margin: 0 auto;
 }
-#servicePlan h6 {
+#pricing h6 {
     font-size: 18px;
     margin-top: 20px;
 }
-#servicePlan button.btn {
+#pricing button.btn {
     background: linear-gradient(to right, #1cd9b8, #06aced);
-    width: 200px;
+    width: 180px;
     height: 50px;
-    margin: 30px auto;
-    margin-bottom: 0;
+    margin: 20px auto 0 auto;
     color: white;
     border-radius: 23px 0 23px 0;
     visibility: hidden;
 }
-#servicePlan .card {
+#pricing .card {
     border: 3px solid transparent;
 }
-#servicePlan .card:hover {
+#pricing .card:hover {
     border: 3px solid #1cd9b8;
 }
-#servicePlan .card:hover hr{
-    visibility: hidden;
-}
-#servicePlan .card:hover button.btn {
+#pricing .card:hover button.btn {
     visibility: visible;
 }
-#servicePlan button.btn:hover {
+#pricing button.btn:hover {
     transform: scale(1.08);
     transition: .2s ease;
+}
+
+/* subscribe section */
+
+#subscribe {
+    background-color: #fafffd;
+}
+#subscribe .d-flex {
+    margin: auto;
+    max-width: 600px;
+}
+#subscribe input.btn {
+    background: linear-gradient(to right, #1cd9b8, #06aced);
+    height: 40px;
+    min-width: 110px;
+    color: white;
+    border-radius: 5px;
+}
+#subscribe input {
+    font-size: 16px;
+    min-width: 50px;
+}
+
+/* footer section */
+footer {
+    background-color: #fafffd;
+}
+footer .brandList {
+    max-width: 200px;
+}
+footer img.brand {
+    filter: grayscale(100%);
+}
+footer img, footer li {
+    cursor: pointer;
+    color: gray
+}
+footer li:hover {
+    color: #06aced;
 }
