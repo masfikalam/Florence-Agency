@@ -38,3 +38,23 @@
     transform: scale(1.08);
     transition: .2s ease;
 }
+
+/* subscribe section */
+
+#subscribe {
+    background-color: #fafffd;
+}
+#subscribe .d-flex {
+    margin: auto;
+    max-width: 700px;
+}
+#subscribe input.btn {
+    background: linear-gradient(to right, #1cd9b8, #06aced);
+    width: 180px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+}
+#subscribe input {
+    font-size: 16px;
+}
