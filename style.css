@@ -1,39 +1,40 @@
-#servicePlan {
+#pricing {
     background-color: #fafffd;
+    background-image: url('./images/pricingBg.png');
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    background-position: -480px -150px;
+    /* background-color: #fafffd; */
 }
-#servicePlan hr {
+#pricing hr {
     background-color: #1cd9b8;
     height: 1px;
     width: 200px;
     margin: 0 auto;
 }
-#servicePlan h6 {
+#pricing h6 {
     font-size: 18px;
     margin-top: 20px;
 }
-#servicePlan button.btn {
+#pricing button.btn {
     background: linear-gradient(to right, #1cd9b8, #06aced);
-    width: 200px;
+    width: 180px;
     height: 50px;
-    margin: 30px auto;
-    margin-bottom: 0;
+    margin: 20px auto 0 auto;
     color: white;
     border-radius: 23px 0 23px 0;
     visibility: hidden;
 }
-#servicePlan .card {
+#pricing .card {
     border: 3px solid transparent;
 }
-#servicePlan .card:hover {
+#pricing .card:hover {
     border: 3px solid #1cd9b8;
 }
-#servicePlan .card:hover hr{
-    visibility: hidden;
-}
-#servicePlan .card:hover button.btn {
+#pricing .card:hover button.btn {
     visibility: visible;
 }
-#servicePlan button.btn:hover {
+#pricing button.btn:hover {
     transform: scale(1.08);
     transition: .2s ease;
 }
