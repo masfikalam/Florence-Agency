@@ -1,0 +1,122 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* navbar section */
+.navbar a img{
+   height: 6rem;
+   width: 7.8rem;
+}
+.navbar a{
+    font-weight: 600;
+    font-size:1.36rem;
+}
+.curv{ 
+    background: linear-gradient(to right, #1cd9b8, #06aced);
+    height: 3rem;
+    width: 10rem;
+    margin: 30px auto;
+    margin-bottom: 0;
+    color: white;
+    border-radius: 23px 0 23px 0;     
+}
+.curv:hover {
+    color: white;
+}
+
+/* header section */
+header{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    }
+header .card{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 80px 0px;
+}
+header .card:hover{
+    box-shadow: 10px 10px 15px lightgray;
+}    
+
+/* pricing section */
+#pricing {
+    background-color: #fafffd;
+    background-image: url('./images/pricingBg.png');
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    background-position: -480px -150px;
+}
+#pricing hr {
+    background-color: #1cd9b8;
+    height: 1px;
+    width: 200px;
+    margin: 0 auto;
+}
+#pricing h6 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+#pricing button.btn {
+    background: linear-gradient(to right, #1cd9b8, #06aced);
+    width: 180px;
+    height: 50px;
+    margin: 20px auto 0 auto;
+    color: white;
+    border-radius: 23px 0 23px 0;
+    visibility: hidden;
+}
+#pricing .card {
+    border: 3px solid transparent;
+}
+#pricing .card:hover {
+    border: 3px solid #1cd9b8;
+}
+#pricing .card:hover button.btn {
+    visibility: visible;
+}
+#pricing button.btn:hover {
+    transform: scale(1.08);
+    transition: .2s ease;
+}
+
+/* subscribe section */
+
+#subscribe {
+    background-color: #fafffd;
+}
+#subscribe .d-flex {
+    margin: auto;
+    max-width: 600px;
+}
+#subscribe input.btn {
+    background: linear-gradient(to right, #1cd9b8, #06aced);
+    height: 40px;
+    min-width: 110px;
+    color: white;
+    border-radius: 5px;
+}
+#subscribe input {
+    font-size: 16px;
+    min-width: 50px;
+}
+
+/* footer section */
+footer {
+    background-color: #fafffd;
+}
+footer .brandList {
+    max-width: 200px;
+}
+footer img.brand {
+    filter: grayscale(100%);
+}
+footer img, footer li {
+    cursor: pointer;
+    color: gray
+}
+footer li:hover {
+    color: #06aced;
+}
