@@ -46,15 +46,16 @@
 }
 #subscribe .d-flex {
     margin: auto;
-    max-width: 700px;
+    max-width: 600px;
 }
 #subscribe input.btn {
     background: linear-gradient(to right, #1cd9b8, #06aced);
-    width: 180px;
     height: 40px;
+    min-width: 110px;
     color: white;
     border-radius: 5px;
 }
 #subscribe input {
     font-size: 16px;
+    min-width: 50px;
 }
