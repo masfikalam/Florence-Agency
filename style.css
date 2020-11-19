@@ -1,8 +1,13 @@
+/* all section */
+
 html {
     scroll-behavior: smooth;
 }
 body{
     font-family: 'Noto Sans JP', sans-serif;
+}
+h2.name {
+    font-family: 'Yeseva One', cursive;
 }
 
 /* navbar section */
@@ -48,6 +53,7 @@ header .text{
     padding-left: 100px;
 }
 header .title {
+    font-family: 'Yeseva One', cursive;
     font-size: 5vw;
     line-height: 0.9;
 }
@@ -155,7 +161,7 @@ footer li:hover {
         background-image: none;
     }
     header .text{
-        padding-left: 40px;
+        padding-left: 30px;
     }
 }
 @media (max-width: 768px) {
@@ -164,5 +170,9 @@ footer li:hover {
     }
     header .title {
         font-size: 9vw;
+    }
+    #services .card{ 
+        min-width: 250px;
+        margin: 0%;
     }
 }
