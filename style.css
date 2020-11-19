@@ -1,3 +1,81 @@
+/* all section */
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h2.name {
+    font-family: 'Yeseva One', cursive;
+}
+
+/* navbar section */
+
+nav.navbar {
+    background-image: url('./images/navBg.png');
+    background-size: 400px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: -200px -220px;
+}
+nav.navbar a {
+    margin: 0 10px;
+    font-weight: 600;
+}
+nav .navbar-toggler:focus {
+    outline: none;
+}
+.curv{ 
+    background: linear-gradient(to right, #1cd9b8, #06aced);
+    color: white;
+    border-radius: 23px 0 23px 0;
+}
+.curv:hover {
+    color: white;
+    transform: scale(1.08);
+    transition: .2s ease;
+}
+
+/* header section */
+header {
+    background-image: url('./images/headerBg.png');
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 190% 100%;
+}
+header .cover {
+    background-image: url('./images/headerBg2.png');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: -80px 30px;
+}
+header .text{
+    padding-left: 100px;
+}
+header .title {
+    font-family: 'Yeseva One', cursive;
+    font-size: 5vw;
+    line-height: 0.9;
+}
+
+/* service section */
+
+#services {
+    background-image: url('./images/servicesBg.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #fafffd;
+}
+#services .card {
+    background-color: transparent;
+    border-radius: 50px 0 50px 0;
+}
+#services .card:hover {
+    background-color: white;
+    box-shadow: 0 0 30px 1px #ceffff;
+}
+
 /* pricing section */
 #pricing {
     background-color: #fafffd;
@@ -61,6 +139,7 @@
 }
 
 /* footer section */
+
 footer {
     background-color: #fafffd;
 }
@@ -76,4 +155,27 @@ footer img, footer li {
 }
 footer li:hover {
     color: #06aced;
+}
+
+/* media queries */
+
+@media (max-width: 1200px) {
+    header {
+        background-image: none;
+    }
+    header .text{
+        padding-left: 30px;
+    }
+}
+@media (max-width: 768px) {
+    nav a.navbar-brand img {
+        width: 100px;
+    }
+    header .title {
+        font-size: 9vw;
+    }
+    #services .card{ 
+        min-width: 250px;
+        margin: 0%;
+    }
 }
