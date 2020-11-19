@@ -6,40 +6,48 @@ body{
 }
 
 /* navbar section */
-.navbar a img{
-   height: 6rem;
-   width: 7.8rem;
+nav.navbar {
+    background-image: url('./images/navBg.png');
+    background-size: 400px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: -200px -220px;
 }
-.navbar a{
+nav.navbar a {
+    margin: 0 10px;
     font-weight: 600;
-    font-size:1.36rem;
+}
+nav .navbar-toggler:focus {
+    outline: none;
 }
 .curv{ 
     background: linear-gradient(to right, #1cd9b8, #06aced);
-    height: 3rem;
-    width: 10rem;
-    margin: 30px auto;
-    margin-bottom: 0;
     color: white;
-    border-radius: 23px 0 23px 0;     
+    border-radius: 23px 0 23px 0;
 }
 .curv:hover {
     color: white;
+    transform: scale(1.08);
+    transition: .2s ease;
 }
 
 /* header section */
-header{
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    }
-header .card{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    border-radius: 80px 0px;
+header {
+    background-image: url('./images/headerBg.png');
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 190% 100%;
 }
-header .card:hover{
+header .text{
+    padding-left: 100px;
+}
+header .title {
+    font-size: 5vw;
+    line-height: 0.9;
+}
+/* header .card:hover{
     box-shadow: 10px 10px 15px lightgray;
-}    
+}     */
 
 /* pricing section */
 #pricing {
@@ -119,4 +127,23 @@ footer img, footer li {
 }
 footer li:hover {
     color: #06aced;
+}
+
+/* media queries */
+
+@media (max-width: 1200px) {
+    header {
+        background-image: none;
+    }
+    header .text{
+        padding-left: 40px;
+    }
+}
+@media (max-width: 768px) {
+    nav a.navbar-brand img {
+        width: 100px;
+    }
+    header .title {
+        font-size: 9vw;
+    }
 }

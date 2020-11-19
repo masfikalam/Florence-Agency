@@ -10,53 +10,55 @@
 </head>
 <body>
   
-  <!-- Navbar section -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img src="images/logo.png"alt="#" /> </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#header">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#about">About </a>
-                </li>
-                <li class="nav-right ">
-                    <a class="nav-link active"href="#services">Services</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#servicePlan">Pricing</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#team">Our Team</a>
-                </li>
-                <li to="/contact">
-                    <button type="button" class="curv btn"> <a>Contact Us</a></button>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Header section -->
+    <!-- Navbar section -->
     <header id="header">
-        <div class="row">
-            <div class="col-md-6 col-12 col-sm-6">
-                <h1>Florence Agency</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus beatae aut maxime ipsam voluptates error unde nulla repellat ullam amet doloribus exercitationem quas repellendus quos debitis quidem, quis a deserunt?</p>
-                <button type="button" class="curv btn"> <a>See Pricing</a></button>
+        <nav class="navbar navbar-expand-lg align-items-start px-3 px-md-5">
+            <a class="navbar-brand pl-md-4" href="#">
+                <img src="images/logo.png" alt="#" width="130px" />
+            </a>
+            <button class="navbar-toggler mt-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="./images/menu.png" width="30px" alt="">
+            </button>
+
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+                <ul class="navbar-nav ml-auto pt-3">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#about">About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark"href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item mx-auto" style="width: 150px">
+                        <a class="nav-link curv btn px-3 pt-2">Contact Us</a>
+                    </li>
+                </ul>
             </div>
-            <div class="col-md-6 col-12 col-sm-6">
-                <img class="img-fluid w-75"src="./images/headerImg.png" alt="">
+        </nav>
+
+        <!-- Header section -->
+        <div class="row mx-0 px-3 px-md-5 align-items-center py-5">
+            <div class="col-lg-6 text">
+                <h1 class="title"><b>Florence agency</b></h1>
+                <p class="text-secondary my-4 my-lg-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus beatae aut maxime ipsam voluptates error unde nulla repellat ullam amet doloribus exercitationem quas repellendus quos debitis quidem, quis a deserunt?</p>
+                <button type="button" class="curv btn px-4 py-2"> <a>See Pricing</a></button>
             </div>
-        </div>
+            <div class="offset-2 col-8 col-lg-6 offset-lg-0 text-center mt-4 mt-lg-0">
+                <img class="img-fluid" width="500px" src="./images/headerImg.png" alt="" >
+            </div>
+        </div>          
     </header>
 
     <!-- our service section -->
-    <section id="services">
+    <!-- <section id="services">
         <div class="text-center">
             <h2><span>What We Do</h2>
         </div>
@@ -104,7 +106,7 @@
                 </div>
             </div>
         </div>    
-    </section>
+    </section> -->
       
 <!-- Pricing Section -->
     <section id="pricing" class="text-center py-5">
@@ -166,7 +168,7 @@
             <h2><b>Get your design right, right now</b></h2>
             <p class="text-secondary">Be the first to know our latest offers and updates!</p>
             <div class="d-flex justify-content-center shadow p-2 rounded bg-white mt-5">
-                <input type="text" class="mr-3 form-control-lg form-control border-0 img-fluid" placeholder="Enter Your Email Address">
+                <input type="text" class="mr-3 form-control-lg form-control border-0 img-fluid" placeholder="Email Address">
                 <input type="submit" value="Get Started" class="btn">
             </div>
         </div>
