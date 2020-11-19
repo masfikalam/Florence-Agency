@@ -51,9 +51,22 @@ header .title {
     font-size: 5vw;
     line-height: 0.9;
 }
-/* header .card:hover{
-    box-shadow: 10px 10px 15px lightgray;
-}     */
+
+/* service section */
+#services {
+    background-image: url('./images/servicesBg.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #fafffd;
+}
+#services .card {
+    background-color: transparent;
+    border-radius: 50px 0 50px 0;
+}
+#services .card:hover {
+    background-color: white;
+    box-shadow: 0 0 30px 1px #ceffff;
+}
 
 /* pricing section */
 #pricing {
