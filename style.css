@@ -38,6 +38,12 @@ header {
     background-repeat: no-repeat;
     background-position: 190% 100%;
 }
+header .cover {
+    background-image: url('./images/headerBg2.png');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: -80px 30px;
+}
 header .text{
     padding-left: 100px;
 }
