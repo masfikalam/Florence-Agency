@@ -1,34 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
-
-/* navbar section */
-.navbar a img{
-    height: 6rem;
-    width: 7.8rem;
-}
-.navbar a{
-    font-weight: 600;
-    font-size:1.36rem;
-}
-.curv{ 
-    background: linear-gradient(to right, #1cd9b8, #06aced);
-    width: 200px;
-    height: 50px;
-    margin: 30px auto;
-    margin-bottom: 0;
-    color: white;
-    border-radius: 23px 0 23px 0;     
-}
-.curv:hover {
-    color: white;
-}
-
-/* header section */
-header{
- margin-top: 2.5rem;
-}
-
 /* pricing section */
 #pricing {
     background-color: #fafffd;
