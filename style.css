@@ -11,6 +11,7 @@ h2.name {
 }
 
 /* navbar section */
+
 nav.navbar {
     background-image: url('./images/navBg.png');
     background-size: 400px;
@@ -59,6 +60,7 @@ header .title {
 }
 
 /* service section */
+
 #services {
     background-image: url('./images/servicesBg.png');
     background-size: cover;
@@ -137,6 +139,7 @@ header .title {
 }
 
 /* footer section */
+
 footer {
     background-color: #fafffd;
 }
