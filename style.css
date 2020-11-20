@@ -1,17 +1,12 @@
 /* all section */
-
 html {
   scroll-behavior: smooth;
-}
-body {
-  font-family: "Noto Sans JP", sans-serif;
 }
 h2.name {
   font-family: "Yeseva One", cursive;
 }
 
 /* navbar section */
-
 nav.navbar {
   background-image: url("./images/navBg.png");
   background-size: 400px;
@@ -60,7 +55,6 @@ header .title {
 }
 
 /* service section */
-
 #services {
   background-image: url("./images/servicesBg.png");
   background-size: cover;
@@ -76,35 +70,48 @@ header .title {
   box-shadow: 0 0 30px 1px #ceffff;
 }
 
-.project-section {
+/* project section */
+#project {
   background-image: url("./images/headerBg.png");
+  background-size: 40% 100%;
   background-position: 130% 50%;
-  background-size: 40% 110%;
   background-repeat: no-repeat;
 }
 
 /* achievement section */
-.achievement-section {
+#achievement {
   background-color: #fafffd;
 }
-.achievement-1 {
+.diff {
+  filter: brightness(50%);
+}
+.achievement {
+  color: gray;
+  background: #fff;
+  box-shadow: 10px 10px 6px #eafdf4;
+}
+.ach-1,
+.ach-4 {
   border-radius: 0 65px 0 65px;
-  color: gray;
-  background: #fff;
-  box-shadow: 10px 10px 10px #eafdf4;
 }
-.achievement-2 {
+.ach-2,
+.ach-3 {
   border-radius: 65px 0 65px 0;
-  color: gray;
-  background: #fff;
-  box-shadow: 10px 10px 10px #eafdf4;
 }
-.achievement-1:hover,
-.achievement-2:hover,
-.achieve-active {
+.ach-1:hover,
+.ach-3:hover {
   background: linear-gradient(to right, #1cd9b8, #06aced);
   color: white;
 }
+.ach-2:hover,
+.ach-4:hover {
+  background: linear-gradient(to left, #1cd9b8, #06aced);
+  color: white;
+}
+.achievement:hover img {
+  filter: brightness(400%);
+}
+
 /* pricing section */
 #pricing {
   background-color: #fafffd;
@@ -147,7 +154,6 @@ header .title {
 }
 
 /* subscribe section */
-
 #subscribe {
   background-color: #fafffd;
 }
@@ -168,7 +174,6 @@ header .title {
 }
 
 /* footer section */
-
 footer {
   background-color: #fafffd;
 }
@@ -188,7 +193,6 @@ footer li:hover {
 }
 
 /* media queries */
-
 @media (max-width: 1200px) {
   header {
     background-image: none;
@@ -208,7 +212,7 @@ footer li:hover {
     min-width: 250px;
     margin: 0%;
   }
-  .project-section {
+  #project {
     background-image: none;
   }
 }
