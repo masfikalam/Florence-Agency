@@ -76,6 +76,15 @@ header .title {
     box-shadow: 0 0 30px 1px #ceffff;
 }
 
+/* project section */
+
+#project {
+    background-image: url('./images/headerBg.png');
+    background-size: 1100px;
+    background-position: 190% -250px;
+    background-repeat: no-repeat;
+}
+
 /* pricing section */
 #pricing {
     background-color: #fafffd;
