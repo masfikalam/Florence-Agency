@@ -25,11 +25,11 @@ nav .navbar-toggler:focus {
   background: linear-gradient(to right, #1cd9b8, #06aced);
   color: white;
   border-radius: 23px 0 23px 0;
+  transition: 0.3s ease;
 }
 .curv:hover {
   color: white;
   transform: scale(1.08);
-  transition: 0.2s ease;
 }
 
 /* header section */
@@ -64,6 +64,7 @@ header .title {
 #services .card {
   background-color: transparent;
   border-radius: 50px 0 50px 0;
+  transition: 0.3s ease;
 }
 #services .card:hover {
   background-color: white;
@@ -82,13 +83,15 @@ header .title {
 #achievement {
   background-color: #fafffd;
 }
-.diff {
-  filter: brightness(50%);
-}
 .achievement {
   color: gray;
   background: #fff;
   box-shadow: 10px 10px 6px #eafdf4;
+  transition: 0.3s ease;
+}
+.achievement img {
+  filter: brightness(1);
+  transition: 0.3s ease;
 }
 .ach-1,
 .ach-4 {
@@ -98,18 +101,12 @@ header .title {
 .ach-3 {
   border-radius: 65px 0 65px 0;
 }
-.ach-1:hover,
-.ach-3:hover {
-  background: linear-gradient(to right, #1cd9b8, #06aced);
-  color: white;
-}
-.ach-2:hover,
-.ach-4:hover {
+.achievement:hover {
   background: linear-gradient(to left, #1cd9b8, #06aced);
   color: white;
 }
 .achievement:hover img {
-  filter: brightness(400%);
+  filter: brightness(3);
 }
 
 /* pricing section */
@@ -138,9 +135,11 @@ header .title {
   color: white;
   border-radius: 23px 0 23px 0;
   visibility: hidden;
+  transition: 0.3s ease;
 }
 #pricing .card {
   border: 3px solid transparent;
+  transition: 0.3s ease;
 }
 #pricing .card:hover {
   border: 3px solid #1cd9b8;
@@ -150,7 +149,7 @@ header .title {
 }
 #pricing button.btn:hover {
   transform: scale(1.08);
-  transition: 0.2s ease;
+  transition: 0.3s ease;
 }
 
 /* subscribe section */
