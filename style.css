@@ -1,181 +1,214 @@
 /* all section */
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-body{
-    font-family: 'Noto Sans JP', sans-serif;
+body {
+  font-family: "Noto Sans JP", sans-serif;
 }
 h2.name {
-    font-family: 'Yeseva One', cursive;
+  font-family: "Yeseva One", cursive;
 }
 
 /* navbar section */
 
 nav.navbar {
-    background-image: url('./images/navBg.png');
-    background-size: 400px;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: -200px -220px;
+  background-image: url("./images/navBg.png");
+  background-size: 400px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: -200px -220px;
 }
 nav.navbar a {
-    margin: 0 10px;
-    font-weight: 600;
+  margin: 0 10px;
+  font-weight: 600;
 }
 nav .navbar-toggler:focus {
-    outline: none;
+  outline: none;
 }
-.curv{ 
-    background: linear-gradient(to right, #1cd9b8, #06aced);
-    color: white;
-    border-radius: 23px 0 23px 0;
+.curv {
+  background: linear-gradient(to right, #1cd9b8, #06aced);
+  color: white;
+  border-radius: 23px 0 23px 0;
 }
 .curv:hover {
-    color: white;
-    transform: scale(1.08);
-    transition: .2s ease;
+  color: white;
+  transform: scale(1.08);
+  transition: 0.2s ease;
 }
 
 /* header section */
 header {
-    background-image: url('./images/headerBg.png');
-    background-size: 1000px;
-    background-repeat: no-repeat;
-    background-position: 190% 100%;
+  background-image: url("./images/headerBg.png");
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: 190% 100%;
 }
 header .cover {
-    background-image: url('./images/headerBg2.png');
-    background-size: 900px;
-    background-repeat: no-repeat;
-    background-position: -80px 30px;
+  background-image: url("./images/headerBg2.png");
+  background-size: 900px;
+  background-repeat: no-repeat;
+  background-position: -80px 30px;
 }
-header .text{
-    padding-left: 100px;
+header .text {
+  padding-left: 100px;
 }
 header .title {
-    font-family: 'Yeseva One', cursive;
-    font-size: 5vw;
-    line-height: 0.9;
+  font-family: "Yeseva One", cursive;
+  font-size: 5vw;
+  line-height: 0.9;
 }
 
 /* service section */
 
 #services {
-    background-image: url('./images/servicesBg.png');
-    background-size: cover;
-    background-position: center;
-    background-color: #fafffd;
+  background-image: url("./images/servicesBg.png");
+  background-size: cover;
+  background-position: center;
+  background-color: #fafffd;
 }
 #services .card {
-    background-color: transparent;
-    border-radius: 50px 0 50px 0;
+  background-color: transparent;
+  border-radius: 50px 0 50px 0;
 }
 #services .card:hover {
-    background-color: white;
-    box-shadow: 0 0 30px 1px #ceffff;
+  background-color: white;
+  box-shadow: 0 0 30px 1px #ceffff;
 }
 
+.project-section {
+  background-image: url("./images/headerBg.png");
+  background-position: 130% 50%;
+  background-size: 40% 110%;
+  background-repeat: no-repeat;
+}
+
+/* achievement section */
+.achievement-section {
+  background-color: #fafffd;
+}
+.achievement-1 {
+  border-radius: 0 65px 0 65px;
+  color: gray;
+  background: #fff;
+  box-shadow: 10px 10px 10px #eafdf4;
+}
+.achievement-2 {
+  border-radius: 65px 0 65px 0;
+  color: gray;
+  background: #fff;
+  box-shadow: 10px 10px 10px #eafdf4;
+}
+.achievement-1:hover,
+.achievement-2:hover,
+.achieve-active {
+  background: linear-gradient(to right, #1cd9b8, #06aced);
+  color: white;
+}
 /* pricing section */
 #pricing {
-    background-color: #fafffd;
-    background-image: url('./images/pricingBg.png');
-    background-size: 1100px;
-    background-repeat: no-repeat;
-    background-position: -480px -150px;
+  background-color: #fafffd;
+  background-image: url("./images/pricingBg.png");
+  background-size: 1100px;
+  background-repeat: no-repeat;
+  background-position: -480px -150px;
 }
 #pricing hr {
-    background-color: #1cd9b8;
-    height: 1px;
-    width: 200px;
-    margin: 0 auto;
+  background-color: #1cd9b8;
+  height: 1px;
+  width: 200px;
+  margin: 0 auto;
 }
 #pricing h6 {
-    font-size: 18px;
-    margin-top: 20px;
+  font-size: 18px;
+  margin-top: 20px;
 }
 #pricing button.btn {
-    background: linear-gradient(to right, #1cd9b8, #06aced);
-    width: 180px;
-    height: 50px;
-    margin: 20px auto 0 auto;
-    color: white;
-    border-radius: 23px 0 23px 0;
-    visibility: hidden;
+  background: linear-gradient(to right, #1cd9b8, #06aced);
+  width: 180px;
+  height: 50px;
+  margin: 20px auto 0 auto;
+  color: white;
+  border-radius: 23px 0 23px 0;
+  visibility: hidden;
 }
 #pricing .card {
-    border: 3px solid transparent;
+  border: 3px solid transparent;
 }
 #pricing .card:hover {
-    border: 3px solid #1cd9b8;
+  border: 3px solid #1cd9b8;
 }
 #pricing .card:hover button.btn {
-    visibility: visible;
+  visibility: visible;
 }
 #pricing button.btn:hover {
-    transform: scale(1.08);
-    transition: .2s ease;
+  transform: scale(1.08);
+  transition: 0.2s ease;
 }
 
 /* subscribe section */
 
 #subscribe {
-    background-color: #fafffd;
+  background-color: #fafffd;
 }
 #subscribe .d-flex {
-    margin: auto;
-    max-width: 600px;
+  margin: auto;
+  max-width: 600px;
 }
 #subscribe input.btn {
-    background: linear-gradient(to right, #1cd9b8, #06aced);
-    height: 40px;
-    min-width: 110px;
-    color: white;
-    border-radius: 5px;
+  background: linear-gradient(to right, #1cd9b8, #06aced);
+  height: 40px;
+  min-width: 110px;
+  color: white;
+  border-radius: 5px;
 }
 #subscribe input {
-    font-size: 16px;
-    min-width: 50px;
+  font-size: 16px;
+  min-width: 50px;
 }
 
 /* footer section */
 
 footer {
-    background-color: #fafffd;
+  background-color: #fafffd;
 }
 footer .brandList {
-    max-width: 200px;
+  max-width: 200px;
 }
 footer img.brand {
-    filter: grayscale(100%);
+  filter: grayscale(100%);
 }
-footer img, footer li {
-    cursor: pointer;
-    color: gray
+footer img,
+footer li {
+  cursor: pointer;
+  color: gray;
 }
 footer li:hover {
-    color: #06aced;
+  color: #06aced;
 }
 
 /* media queries */
 
 @media (max-width: 1200px) {
-    header {
-        background-image: none;
-    }
-    header .text{
-        padding-left: 30px;
-    }
+  header {
+    background-image: none;
+  }
+  header .text {
+    padding-left: 30px;
+  }
 }
 @media (max-width: 768px) {
-    nav a.navbar-brand img {
-        width: 100px;
-    }
-    header .title {
-        font-size: 9vw;
-    }
-    #services .card{ 
-        min-width: 250px;
-        margin: 0%;
-    }
+  nav a.navbar-brand img {
+    width: 100px;
+  }
+  header .title {
+    font-size: 9vw;
+  }
+  #services .card {
+    min-width: 250px;
+    margin: 0%;
+  }
+  .project-section {
+    background-image: none;
+  }
 }
